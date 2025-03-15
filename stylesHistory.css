@@ -1,0 +1,27 @@
+/* Starting code repeated for each CSS file */
+body {
+    font-family: sans-serif;
+    padding: 0.5%;
+    margin: 0.1%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    padding: 1%;
+    margin-bottom: 10px;
+}
+
+/* Changing nav button to show what page you are on */
+.nav-button {
+    background-color: darkred;
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.clicked {
+    background-color: green;
+}

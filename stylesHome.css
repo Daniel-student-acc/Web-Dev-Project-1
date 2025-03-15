@@ -1,0 +1,49 @@
+/* Starting code repeated for each CSS file */
+body {
+    font-family: sans-serif;
+    padding: 0.5% 15% 1% 15%;
+    margin: 0.1%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+/* Changing nav button to show what page you are on */
+.nav-button {
+    background-color: darkred;
+    color: white;
+    padding: 6px;
+    margin: 1px;
+    text-decoration: none;
+}
+
+.clicked {
+    background-color: green;
+}
+
+li {
+    color: white;
+    padding: 1px;;
+}
+
+.list-link{
+    color: blue;
+    text-decoration: none;
+}
+
+/* Start of seperate CSS */
+
+.class1 {
+    width: auto;
+}
+
+.temp {
+    float: inline-end;
+    width: 150px;
+}
