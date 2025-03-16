@@ -3,6 +3,7 @@ body {
     font-family: sans-serif;
     padding: 0.5% 15% 1% 15%;
     margin: 0.1%;
+    width: auto;
 }
 
 header {
@@ -36,14 +37,31 @@ li {
     color: blue;
     text-decoration: none;
 }
-
 /* Start of seperate CSS */
-
-.class1 {
-    width: auto;
+.map {
+    width: 60%;
 }
 
-.temp {
-    float: inline-end;
-    width: 150px;
+img {
+    width:330px;
+}
+
+.image-box {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 350px;
+    margin: 1% 3% 0.5% 0%;
+    padding: 1% 1% 0.5% 1%;
+    float: left;
+}
+
+.image-box > p {
+    padding: 1px;
+    margin: 3px;
+}
+
+.link {
+    text-decoration: none;
+    color: blue;
 }

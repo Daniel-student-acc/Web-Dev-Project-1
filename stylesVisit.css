@@ -1,0 +1,45 @@
+/* This ones css will have to be different cause Bootstrap */
+body {
+    font-family: sans-serif;
+    margin: 0.1%;
+    width: auto;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+/* Changing nav button to show what page you are on */
+.nav-button {
+    background-color: darkred;
+    color: white;
+    padding: 6px;
+    margin: 4px;
+    text-decoration: none;
+}
+
+.clicked {
+    background-color: green;
+}
+
+li {
+    color: white;
+    padding: 1px;;
+}
+
+.list-link{
+    color: blue;
+    text-decoration: none;
+}
+
+/* Main Css */
+
+p {
+    padding: 0.1%;
+    margin-top: 5px;
+}
